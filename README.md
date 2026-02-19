@@ -2,6 +2,7 @@
 
 A premium Netflix Clone application with a custom backend authentication system, responsive UI, and TMDB integration.
 
+Live url : https://movie-clones-client.vercel.app/
 ## Features
 
 ### 🎬 Frontend (React + Tailwind CSS)
