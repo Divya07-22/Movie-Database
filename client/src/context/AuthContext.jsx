@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
 
     // Configure axios base URL for auth
     const authClient = axios.create({
-        baseURL: 'http://localhost:5000/api/auth',
+        baseURL: `${import.meta.env.VITE_API_URL || 'http://localhost:5000'}/api/auth`,
     });
 
     useEffect(() => {
